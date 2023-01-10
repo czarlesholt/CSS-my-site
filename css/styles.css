@@ -1,0 +1,66 @@
+body{
+    background-color: lightsteelblue;
+    margin: 0;
+    text-align: center;
+    position: relative;
+}
+
+h1{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+p{
+    padding: 10px;
+}
+
+div{
+    margin: 20px;
+}
+
+img{
+    height: 100px;
+}
+
+
+/******************************CLASS SELECTORS**********************************************/
+
+
+
+.top-container{
+    position: relative;
+    border: solid;
+    padding: 5px;
+    display:inline-block
+}
+
+.middle-container{
+    background-color: rgb(65, 63, 91);
+    height: 200px;
+    width: 200px;
+    margin: 100px;
+    border: solid;
+    border-color:white;
+}
+
+.bottom-container{
+    background-color: darkslategray;
+    height: 200px;
+    width: 200px;
+    margin: 200px;
+    border: solid;
+    border-color: white;
+}
+
+.leaf-picture{
+    position: absolute;
+    right: 300px;
+    top: 100px;
+}
+
+.stone-picture{
+    position: absolute;
+    left: 300px;
+    top: 100px;
+}
